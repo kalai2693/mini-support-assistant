@@ -1,0 +1,28 @@
+WEEK 4 - RAG FAILURE ANALYSIS
+
+Total questions tested: 10
+Correct answers: 10
+Incorrect answers: 0
+
+1. Retrieval failures:
+No retrieval failures observed in the 10 tests.
+
+2. Generation failures:
+No generation failures observed in the 10 tests.
+
+3. Unanswerable questions:
+All 4 unanswerable questions correctly returned:
+"I don't know."
+
+4. Improvements applied:
+- Used RecursiveCharacterTextSplitter.
+- Chunk size: 512.
+- Chunk overlap: 50.
+- Retrieved top 3 chunks.
+- Preserved page metadata.
+- Added instructions to answer only from manual context.
+- Returned empty sources for "I don't know."
+
+Conclusion:
+The RAG assistant passed all 10 evaluation tests.
+No incorrect answers were observed in this test set.

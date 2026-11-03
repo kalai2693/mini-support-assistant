@@ -1,0 +1,34 @@
+WEEK 4 - TASK 4 RAG EVALUATION
+
+Document:
+SupportPro Sample Product Manual (fictional practice document)
+
+Chunk size: 512
+Chunk overlap: 50
+Total chunks: 11
+Retrieved chunks per question: 3
+
+ANSWERABLE TESTS:
+1. Enterprise plan team members - PASS
+2. Subscription plan location - PASS
+3. SupportPro sign-in method - PASS
+4. Password reset process - PASS
+5. Enterprise plan team members - PASS
+6. Who can change subscription settings - PASS
+
+Result: 6/6 passed
+
+UNANSWERABLE TESTS:
+1. Exact refund processing time - PASS
+2. Exact uptime percentage - PASS
+3. Supported mobile operating systems - PASS
+4. Customer record retention period - PASS
+
+Result: 4/4 passed
+
+TOTAL:
+10/10 tests passed.
+
+The assistant returns "I don't know." when
+the manual does not contain the requested information.
+Sources are returned for supported answers.
