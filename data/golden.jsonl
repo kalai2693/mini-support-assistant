@@ -1,0 +1,12 @@
+{"ticket":"My payment was deducted twice.","category":"Billing"}
+{"ticket":"I need a refund for my last purchase.","category":"Billing"}
+{"ticket":"My monthly subscription invoice is incorrect.","category":"Billing"}
+{"ticket":"My credit card payment failed.","category":"Billing"}
+{"ticket":"The application crashes when I open it.","category":"Technical"}
+{"ticket":"The software is showing a server error.","category":"Technical"}
+{"ticket":"I cannot install the latest application update.","category":"Technical"}
+{"ticket":"The dashboard is loading very slowly.","category":"Technical"}
+{"ticket":"I forgot my account password.","category":"Account"}
+{"ticket":"I cannot log in to my account.","category":"Account"}
+{"ticket":"Please help me update my account email address.","category":"Account"}
+{"ticket":"My account has been locked.","category":"Account"}

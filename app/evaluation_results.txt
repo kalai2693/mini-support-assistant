@@ -1,0 +1,25 @@
+# Task 1 – Prompt Evaluation Results
+
+Model: Ollama – Llama 3.2 (3B)
+
+Dataset: 12 customer support tickets
+
+Temperature: 0
+
+## Prompt V1
+Correct predictions: 9/12
+Accuracy: 75%
+
+## Prompt V2
+Correct predictions: 11/12
+Accuracy: 91.67%
+
+## Observation
+Prompt V2 performed better than Prompt V1.
+
+The Role, Context, Task, Output Format, Constraints and Examples structure improved classification accuracy.
+
+V2 achieved 16.67 percentage points higher accuracy than V1.
+
+## Conclusion
+Prompt V2 is selected as the best prompt for the next tasks.
